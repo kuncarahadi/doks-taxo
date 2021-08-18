@@ -1,0 +1,16 @@
+<h3>Taxonomies:</h3>
+{{$current := .}}
+<section >
+    <ul class="list-unstyled">
+        {{ range $key, $taxonomy := .Site.Taxonomies.zineVol }}
+        <li><h3>{{ $key }}</h3></li>
+        <ul class="list-unstyled">
+            {{ range $taxonomy.Pages }}
+               <li>
+                <a class="docs-link{{ if eq .File.UniqueID $current.File.UniqueID }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
+              </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </ul>
+</section>
