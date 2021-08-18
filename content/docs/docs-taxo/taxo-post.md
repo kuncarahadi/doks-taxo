@@ -14,4 +14,4 @@ tags: "taxo"
 toc: true
 ---
 
-lorem ipsum
+Change the tags in front matter to organize the sidebar.
