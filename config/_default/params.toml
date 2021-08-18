@@ -72,3 +72,6 @@ editPage = false
   highLight = true
   kaTex = false
   collapsibleSidebar = false
+
+## Docs Taxo
+Docs-taxo = true
