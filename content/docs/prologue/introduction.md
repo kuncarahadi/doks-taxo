@@ -10,7 +10,6 @@ menu:
   docs:
     parent: "prologue"
 weight: 100
-tags: "prologue"
 toc: true
 ---
 
