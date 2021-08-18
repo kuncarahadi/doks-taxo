@@ -10,6 +10,7 @@ menu:
   docs:
     parent: "help"
 weight: 620
+tags:help
 toc: true
 ---
 
