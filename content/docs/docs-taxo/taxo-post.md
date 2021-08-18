@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: ""
+    parent: "taxo"
 weight: 110
 tags: "taxo"
 toc: true
