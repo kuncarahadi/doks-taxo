@@ -2,7 +2,7 @@
 {{$current := .}}
 <section >
     <ul class="list-unstyled">
-        {{ range $key, $taxonomy := .Site.Taxonomies.zineVol }}
+        {{ range $key, $taxonomy := .Site.Taxonomies.tags }}
         <li><h3>{{ $key }}</h3></li>
         <ul class="list-unstyled">
             {{ range $taxonomy.Pages }}
