@@ -1,0 +1,11 @@
+<h3>Content by Section:</h3>
+{{$current := .}}
+<div >
+  <ul class="list-unstyled">
+    {{ range where .Site.RegularPages "Section" .Section }}
+    <li>
+      <a class="docs-link{{ if eq .File.UniqueID $current.File.UniqueID }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
