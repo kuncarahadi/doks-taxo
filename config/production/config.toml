@@ -1,2 +1,2 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "doks-taxo.netlify.app"
 canonifyURLs = true
