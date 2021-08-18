@@ -74,4 +74,4 @@ editPage = false
   collapsibleSidebar = false
 
 ## Docs Taxo
-Docs-taxo = true
+docstaxo = true
